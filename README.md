@@ -10,7 +10,7 @@ steps to run:
 	Optional: If you would like offensive or non offensive joke suggestions, tick the box!
 	
 	
-	![alt text](https://imgur.com/VC99ytw)
-	![alt text](https://imgur.com/4UznR8m)
-	![alt text](https://imgur.com/yXDZUEK)
+	![alt text](https://imgur.com/VC99ytw.png)
+	![alt text](https://imgur.com/4UznR8m.png)
+	![alt text](https://imgur.com/yXDZUEK.png)
 	
