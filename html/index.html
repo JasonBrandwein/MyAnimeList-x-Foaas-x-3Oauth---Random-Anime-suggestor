@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MyAnimeList seasonal grabber for any year</title>
+		<style>
+			body, form{
+				margin:40px auto;
+				max-width:1600px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#description{
+				flex-grow:50;
+				margin: 0 40px;
+			}
+			input#location{
+				flex-grow:50;
+				margin: 0 40px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="create_my_anime_list" method="get">
+			<fieldset>
+				<legend>MyAnimeList seasonal grabber any year</legend>
+				<label for="seasons">Choose a season:</label>
+                 <select name="season" id="season" multiple>
+                    <option value="winter" selected>Winter</option>
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="fall">Fall</option>
+                </select>			
+				<label for="Amount">Input what year you would like to chose from.</label>
+				<input id="year" name="year" type="number" value = "2010"/>		
+
+				<label for="Amount">Would you like the results to be offensive or not?.</label>
+				<input id="offornot" name="offornot" type="checkbox" value = "true" checked = "false"/>		
+
+                <label for="Amount">Select an amount of animes to display up to 200 is allowed:</label>
+                <input id="year" name="amount" type="number" value = "1"/>
+				<input type="submit" value="create my anime list" />
+			</fieldset>
+		</form>
+	</body>
+</html>
